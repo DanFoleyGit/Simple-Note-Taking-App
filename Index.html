@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 3</title>
+</head>
+
+<h1>Daniel's Note taking app</h1>
+
+<body>
+	<div id="noteTaker">
+		<label id="header">Write New Note:</label>
+
+		<textarea rows="10" cols="40" id="noteTextBox" name="noteTextBox"></textarea>
+
+		<div id=inputs> 
+
+			<select id="colorNames" name="colorNames">
+				<option value="DeepSkyBlue" selected>Blue</option>
+				<option value="LightCoral">Red</option>
+				<option value="LightGreen">Green</option>
+				<option value="white">White</option>
+				<option value="orange">Orange</option>
+			</select>
+
+			<button id="addNoteButton">Add Note</button>
+		</div>
+
+		<div id="errorMessage"></div>
+	</div>
+
+	<div id="noteSection">
+		<h1>Notes</h1>
+		<ul id="notes">
+			
+
+		</ul>
+		<p id="demo"></p>
+
+	</div>
+</body>
+<footer>
+	<link href="Style.css" rel="stylesheet" type="text/css">
+	<script src = "script.js" type = "text/javascript"/></script>	
+</footer>
+</html>
